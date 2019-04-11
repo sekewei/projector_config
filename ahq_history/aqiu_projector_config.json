@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "ahq_history",
+      "tensorShape": [
+        4018,
+        300
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/ahq_history/vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/ahq_history/meta.tsv"
+    }
+  ]
+}
