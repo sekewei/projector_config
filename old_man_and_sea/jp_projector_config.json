@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "老人と海",
+      "tensorShape": [
+        3147,
+        300
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/old_man_and_sea/jp_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/old_man_and_sea/jp_meta.tsv"
+    }
+  ]
+}
