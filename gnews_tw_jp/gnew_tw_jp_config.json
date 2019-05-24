@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "google news titles (tw and jp)",
+      "tensorShape": [
+        60,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/gnews_tw_jp/embedding.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/gnews_tw_jp/meta.tsv"
+    }
+  ]
+}
