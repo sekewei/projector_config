@@ -1,0 +1,14 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "natsume souseki book titles",
+      "tensorShape": [
+        106,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/aozora_natsumesouseki/aozora_embedding.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/aozora_natsumesouseki/aozora_meta.tsv"
+    }
+  ]
+}
+© 2019 GitHub, Inc.
