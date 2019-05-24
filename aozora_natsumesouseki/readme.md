@@ -1,2 +1,2 @@
-# embedding.tsv and meta.tsv for natsumesouseki book titles in aozorabunko collection  
-Click the [link](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/sekewei/projector_config/master/aozora_natsumesouseki/aozora_natsumesouseki_config.json) to view news title vectors of [google news](https://news.google.com/) on projector.tensorflow.org
+# embedding.tsv and meta.tsv for Natsume Souseki (夏目 漱石) book titles in Aozorabunko (青空文庫) collection  
+Click the [link](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/sekewei/projector_config/master/aozora_natsumesouseki/aozora_natsumesouseki_config.json) to view book title vectors of [夏目 漱石](https://www.aozora.gr.jp/index_pages/person148.html) on projector.tensorflow.org
