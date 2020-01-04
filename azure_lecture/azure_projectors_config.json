@@ -1,0 +1,130 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "azure_W02",
+      "tensorShape": [
+        106,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W02_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W02_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W03",
+      "tensorShape": [
+        107,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W03_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W03_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W04",
+      "tensorShape": [
+        106,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W04_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W04_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W05",
+      "tensorShape": [
+        105,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W05_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W05_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W06",
+      "tensorShape": [
+        103,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W06_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W06_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W07",
+      "tensorShape": [
+        105,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W07_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W07_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W08",
+      "tensorShape": [
+        100,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W08_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W08_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W09",
+      "tensorShape": [
+        104,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W09_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W09_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W11",
+      "tensorShape": [
+        100,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W11_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W11_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W12",
+      "tensorShape": [
+        101,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W12_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W12_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W13",
+      "tensorShape": [
+        99,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W13_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W13_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W14",
+      "tensorShape": [
+        97,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W14_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W14_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W15",
+      "tensorShape": [
+        90,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W15_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W15_meta.tsv"
+    },
+    {
+      "tensorName": "azure_W16",
+      "tensorShape": [
+        47,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W16_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W16_meta.tsv"
+    }
+  ]
+}
