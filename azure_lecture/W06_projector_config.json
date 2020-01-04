@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "azure_W06",
+      "tensorShape": [
+        103,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W06_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W06_meta.tsv"
+    }
+  ]
+}

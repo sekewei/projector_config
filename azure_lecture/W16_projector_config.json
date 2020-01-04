@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "azure_W16",
+      "tensorShape": [
+        47,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W16_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W16_meta.tsv"
+    }
+  ]
+}

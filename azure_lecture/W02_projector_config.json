@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "azure_W02",
+      "tensorShape": [
+        106,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W02_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W02_meta.tsv"
+    }
+  ]
+}

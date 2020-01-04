@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "azure_W08",
+      "tensorShape": [
+        100,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W08_vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/sekewei/projector_config/master/azure_lecture/W08_meta.tsv"
+    }
+  ]
+}
