@@ -18,7 +18,7 @@ out_meta_tsv =   f'{fname}_{out_vocab_name}_meta.tsv'
 out_vector_tsv = f'{fname}_{out_vocab_name}_vector.tsv'
 out_config_json = f'{fname}_{out_vocab_name}_projector_config.json'
 vec_url = f'http://mail.im.tku.edu.tw/~seke/tmp/{out_vector_tsv}'
-meta_url = f'https://raw.githubusercontent.com/sekewei/projector_config/master/zh_tw/{out_meta_tsv}'
+meta_url = f'https://raw.githubusercontent.com/sekewei/projector_config/master/tw_embedding/{out_meta_tsv}'
 
 path = inp_fname
 model = gensim.models.KeyedVectors.load_word2vec_format(path,
