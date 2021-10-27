@@ -11,8 +11,8 @@ import math
 # vocab_size: 1,723,175 (1.7M)
 # size: 2,084,486,400 (2GB)
 fname = 'tmunlp_1.6B_WB_300dim_2020v1'  # size: 2,084,486,400 (2GB)
-out_vocab_size = 1000000
-out_vocab_name = '1m'
+out_vocab_size = 500000
+out_vocab_name = '500k'
 inp_fname = f'{fname}.bin'
 out_meta_tsv =   f'{fname}_{out_vocab_name}_meta.tsv'
 out_vector_tsv = f'{fname}_{out_vocab_name}_vector.tsv'
@@ -69,20 +69,26 @@ print(f'a total of {vocab_size} words.') # vocab_size: 1,723,175 (1.7M)
 
 meta_list = []
 vector_list = []
-for i in range(out_vocab_size):
+count = 0
+for i in range(vocab_size):
     word = model.index_to_key[vocab_index[i]]
     vector = model[word]
+    if len(word)<2:
+        continue
 
     #df_meta.loc[len(df_meta)] = [word]
     #df_vector.loc[len(df_meta)] = list(vector)
-    meta_list.append(word)
+    meta_list.append([word, len(word)])
     vector_list.append(list(vector))
+    count = count + 1
+    if count >= out_vocab_size:
+        break
     #print(f'{i}\t{word}\t{len(vector)}\t{vector}')
     #print(f'{i}\t{word}')
 #print(model.index2word)
 #print(len(model))
 
-df_meta = pd.DataFrame(meta_list, columns=['word'])
+df_meta = pd.DataFrame(meta_list, columns=['word', 'len'])
 df_vector = pd.DataFrame(vector_list)
 
 print(f'{df_meta.shape}')
